@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{   
+    int N = 5;
+    float data[] = {1.2, 8.4, 10.8, -0.4, -8.234, 3.1};
+    float maximum = -1e30;
+    int maxIndex;
+    int counter;
+    
+    for(counter = 0; counter < N-1; counter++)
+        {
+            if(data[counter] > maximum)
+            {
+                maximum = data[counter];
+                maxIndex = counter;
+            }
+        }
+    printf("the max value was %f, found at index %d", maximum, maxIndex);
+    return 0;
+}
