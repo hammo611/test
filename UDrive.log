@@ -1,0 +1,39 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190329120347
+Username: UNCLE\c3256828
+RunAs User: UNCLE\c3256828
+Configuration Name: 
+Machine: CES-137011 (Microsoft Windows NT 10.0.17134.0)
+Host Application:  -ExecutionPolicy ByPass -File MapUDrive.ps1
+Process ID: 17372
+PSVersion: 5.1.17134.590
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.590
+BuildVersion: 10.0.17134.590
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\c3256828\UDrive.log
+Domain Group Memberships detected:
+29 groups detected. Scanning for Staff or Student membership
+Student login Detected.
+Existing U: Drive detected, removing.
+U: was deleted successfully.
+Un-Map process complete.
+Drive map attempt will be to \\zfssa0.uncle.newcastle.edu.au\home_student\c3256828
+Testing mapping path accessibility
+Path accessible, attempting mapping
+
+Name           Used (GB)     Free (GB) Provider      Root                                               CurrentLocation
+----           ---------     --------- --------      ----                                               ---------------
+U               35214.01       5440.46 FileSystem    \\zfssa0.uncle.newcastle.edu.au\...
+Mapping successful
+Testing Permissions
+Setting Drive Label to : Student Home Drive
+**********************
+Windows PowerShell transcript end
+End time: 20190329120348
+**********************
