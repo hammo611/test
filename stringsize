@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    char str[] = "test string";
+    int length = 0;
+    
+    while(str[++length]);
+    printf("%d\n", length);
+    
+    
+    
+    return 0;
+}
